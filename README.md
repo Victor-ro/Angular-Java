@@ -12,7 +12,7 @@
 - HTML
 - CSS
 - TypeScript
-
+- JavaScript
  ### Back-End:
  
 - Java
