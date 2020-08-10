@@ -1,0 +1,11 @@
+/*para alinhar o botão*/
+.btn-danger
+{
+    margin-top:30px;
+    width: 250px;
+}
+.botao-meio
+{
+ text-align: center;
+
+}

@@ -1,0 +1,35 @@
+<div class="container col-md-6">
+    <!--tudo que tem dentro do quadrado de cadastro-->
+    <div class="card">
+            <!--parte do título-->
+      <div class="card-header">
+        <h3>Cadastrar Procedimento</h3>
+      </div>
+            <!--parte de baíxo-->
+      <div class="card-body">
+        <form action="">
+                       <!--parte de cadastro-->
+          <div class="form-group">
+            <label for="">Código:</label>
+                     <!--o fieldset disabled é para não escrever dentro do campo de código, pois o cod é gerado automáticamente-->
+            <fieldset disabled>
+            <input name="codigo" type="text" id="disabledTextInput" lass="form-control">
+            </fieldset>
+          </div>
+
+          <div class="form-group">
+            <label for="">Nome:</label>
+            <input name="nome" type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="">Prazo máximo para análise em dias:</label>
+            <input name="Email" type="text" class="form-control" >
+          </div>
+               <!--fim do cadastro-->
+        <div class="botao-meio">
+          <button (click)="Procedimentos()"  class="btn btn-danger">Cadastrar</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>

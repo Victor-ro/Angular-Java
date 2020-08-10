@@ -1,0 +1,54 @@
+<div class="container">
+              <!--tudo que tem dentro do quadrado de procedimentos-->
+    <div class="card">
+          <!--parte do título-->
+        <div class="card-header">
+            <h3>Procedimentos</h3> 
+                  <!--aqui vai para cadprocedimento--> 
+      <button (click)="CadastroProcedimento()"  class="btn btn-success"> Cadastrar novo procedimento</button>
+        </div>
+            <!--tabela-->
+        <div class="card-body">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Nome</th>
+                        <th>Prazo máximo para análise em dias</th>
+      
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                          <td>1</td>
+                          <td>Coleta de sangue</td>
+                          <td>5 dias</td>
+                      </tr>
+                  </tbody>
+                  <tbody>
+                    <tr>
+                          <td>2</td>
+                          <td>Coleta de urina</td>
+                          <td>2 dias</td>
+                      </tr>
+                  </tbody>
+                  <tbody>
+                    <tr>
+                          <td>3</td>
+                          <td>Checkup</td>
+                          <td>4 dias</td>
+                      </tr>
+                  </tbody>
+                    <!--tabela com ligação a API Rest-->
+                 <!--  <tbody>
+                  <tr *ngFor="let procedimento of procedimentos" class="text-center">
+                        <td>{{procedimento.codigo}}</td>
+                        <td>{{paciente.nome}}</td>
+                        <td>{{paciente.prazo}}</td>
+                    </tr>
+                </tbody>-->
+            </table>
+        </div>
+    </div>
+    
+    </div>

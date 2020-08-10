@@ -1,0 +1,55 @@
+<div class="container">
+          <!--tudo que tem dentro do quadrado de paciente-->
+    <div class="card">
+                <!--parte do título-->
+        <div class="card-header">
+            <h3>Pacientes Cadastrados</h3>  
+                        <!--aqui vai para cadpaciente-->       
+<button (click)="CadastroPaciente()" class="btn btn-success"> Cadastrar novo paciente</button>
+        </div>
+       <!--tabela-->
+        <div class="card-body">
+            <table class="table table-hover">
+                <thead>
+                    
+                    <tr>               
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Leda Rodrigues</td>
+                        <td>57.222.809.9-10</td>
+                        <td>leda@gmail.com</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Pedro Henrique</td>
+                        <td>28.554.099.7-70</td>
+                        <td>pedro@gmail.com</td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <td>Victor Rodrigues</td>
+                        <td>55.884.529.2-29</td>
+                        <td>rodrigues@gmail.com</td>
+                    </tr>
+                </tbody>
+
+  <!--tabela com ligação a API Rest-->
+         <!--         <tbody>
+                    <tr *ngFor="let paciente of pacientes" class="text-center">
+                        <td>{{paciente.nome}}</td>
+                        <td>{{paciente.cpf}}</td>
+                        <td>{{paciente.email}}</td>
+                    </tr>
+                </tbody>-->
+            </table>
+        </div>
+    </div>
+    </div>

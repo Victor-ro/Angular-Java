@@ -1,0 +1,55 @@
+<div class="container col-md-6">
+  <!--tudo que tem dentro do quadrado de cadastro-->
+    <div class="card">
+        <!--parte do título-->
+      <div class="card-header">
+        <h3>Cadastrar Exame</h3>
+      </div>
+      <!--parte de baíxo-->
+      <div class="card-body">
+        <form action="">
+             <!--parte de cadastro-->
+          <div class="form-group">
+            <label for="">Nome do paciente:</label>
+            <input name="name" type="text" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <label for="">Data da coleta:</label>
+                <!--o placeholder é para por texto dentro do input-->
+            <input name="Data da coleta" type="text" class="form-control"  placeholder="formato: DD/MM/AAAA">
+          </div>
+          <div class="form-group">
+            <label for="">Data da entrega do resultado:</label>
+            <input name="Data da coleta" type="text" class="form-control"  placeholder="formato: DD/MM/AAAA">
+             <!--o placeholder é para por texto dentro do input-->
+            <small id="info" class="form-text text-muted">A data de entrega do resultado deve ser o próximo dia da semana (segunda a sexta) do procedimento de maior prazo.</small>
+          </div>
+             <!--Parte dos Check-->
+          <label for="">Procedimentos:</label>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              Realizar coleta de sangue (5 dias)
+            </label>
+        </div>
+            <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              Realizar coleta de urina (2 dias)
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+                Checkup (4 dias)
+            </label>
+               <!--fim do cadastro-->
+        </div>
+        <div class="botao-meio">
+          <button (click)="Exames()"  class="btn btn-danger">Cadastrar</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,60 @@
+<div class="container">
+      <!--tudo que tem dentro do quadrado de exames-->
+<div class="card">
+        <!--parte do título-->
+    <div class="card-header">
+        <h3>Exames</h3>  
+            <!--aqui vai para cadexame-->
+      <button (click)="CadastroExame()"    class="btn btn-success"> Cadastrar novo exame</button>
+    </div>
+                <!--tabela-->
+    <div class="card-body">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Paciente</th>
+                    <th>Procedimentos</th>
+                    <th>Data da coleta</th>
+                    <th>Data da entrega do resultado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Leda Rodrigues</td>
+                    <td>Checkup</td>
+                    <td>10/09/2020</td>
+                    <td>14/09/2020</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Pedro Henrique</td>
+                    <td>Realizar coleta de urina</td>
+                    <td>10/08/2020</td>
+                    <td>12/08/2020</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Victor Rodrigues</td>
+                    <td>Realizar coleta de sangue</td>
+                    <td>08/08/2020</td>
+                    <td>13/08/2020</td>
+                </tr>
+            </tbody>
+
+
+                           <!--tabela com ligação a API Rest-->
+<!--            <tbody>
+                <tr *ngFor="let exame of exames" class="text-center">
+                    <td>{{exame.paciente}}</td>
+                    <td>{{exame.procedimentos}}</td>
+                    <td>{{exame.datacoleta}}</td>
+                    <td>{{exame.dataresultado}}</td>
+                </tr>
+            </tbody>-->
+        </table>
+    </div>
+</div>
+
+</div>
